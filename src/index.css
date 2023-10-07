@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');  
+body{
+
+    font-family: 'Noto Naskh Arabic', serif;
+    
+ 
+}
+.map-frame{
+    opacity: 67%;
+
+}
+.map-frame:hover{
+    opacity: 100%;
+}

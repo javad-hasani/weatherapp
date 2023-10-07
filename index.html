@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pr" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/index.css">
+    <title>WeatherVado</title>
+    <style>
+      body, html { height: 100%; margin: 0; }
+      iframe { border: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+      #root { position: relative; z-index: 1; }
+    </style>
+  </head>
+  <body>
+    <iframe   class="map-frame" width="425" height="auto" src="https://www.openstreetmap.org/export/embed.html?bbox=22.373216547319643%2C22.1006526937838%2C75.15153685981964%2C44.39826922026564&amp;layer=hot" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=5/33.975/48.762&amp;layers=H">View Larger Map</a></small>
+    <div id="root">
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
